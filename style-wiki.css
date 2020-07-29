@@ -223,11 +223,6 @@ main {
     background-color: white;
 }
 
-.section-nav {
-    width: 95%;
-    margin: 0 auto;
-}
-
 .section-main {
     display: flex;
     border-top: 1px solid #a2a9b1;
@@ -237,48 +232,320 @@ main {
     width: 30%;
 }
 
-.section-nav__menu {
+.section-nav__menu-1 {
     display: flex;
-    width: 70%;
 }
 
-.section-nav__menu .Commons {
+.section-nav__menu-1 .Commons {
     background-image: url('https://img.icons8.com/ultraviolet/40/000000/creative-commons.png');
     background-repeat: no-repeat;
     background-position: left;
     background-size: initial;
-    width: 158px;
+    width: 184px;
     cursor: pointer;
     margin-right: 50px;
+    margin-bottom: 20px;
 }
 
-.section-nav__menu .Commons h4 {
+.section-nav__menu-1 .Commons h4 {
     margin-bottom: 5px;
     margin-left: 50px;
     color: #36c;
+    font-size: 14px;
 }
 
-.section-nav__menu .Commons p {
+.section-nav__menu-1 .Commons p {
     margin-left: 50px;
     margin-top: 5px;
+    font-size: 13px;
+    color: #54595d;
 }
 
-.section-nav__menu .wikiviajes {
+.section-nav__menu-1 .wikiviajes {
     background-image: url('https://img.icons8.com/bubbles/50/000000/national-park.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: initial;
+    width: 189px;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.section-nav__menu-1 .wikiviajes h4 {
+    margin-bottom: 5px;
+    margin-left: 50px;
+    color: #36c;
+    font-size: 14px;
+}
+
+.section-nav__menu-1 .wikiviajes p {
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #54595d;
+}
+
+.section-nav__menu-1 .wikcionario {
+    background-image: url('https://img.icons8.com/doodle/48/000000/wikipedia--v1.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: initial;
+    width: 151px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.section-nav__menu-1 .wikcionario h4 {
+    margin-bottom: 5px;
+    margin-left: 50px;
+    color: #36c;
+    font-size: 14px;
+}
+
+.section-nav__menu-1 .wikcionario p {
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #54595d;
+}
+
+/*------------------------*/
+
+.section-nav__menu-2 {
+    display: flex;
+}
+
+.section-nav__menu-2 .wikilibros {
+    background-image: url('https://img.icons8.com/plasticine/100/000000/books.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 48px;
+    width: 182px;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.section-nav__menu-2 .wikilibros h4 {
+    margin-bottom: 5px;
+    margin-left: 50px;
+    color: #36c;
+    font-size: 14px;
+}
+
+.section-nav__menu-2 .wikilibros p {
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #54595d;
+}
+
+.section-nav__menu-2 .wikinoticias {
+    background-image: url('https://img.icons8.com/doodle/48/000000/news.png');
     background-repeat: no-repeat;
     background-position: left;
     background-size: initial;
     width: 193px;
     cursor: pointer;
+    margin-right: 50px;
+    margin-bottom: 20px;
 }
 
-.section-nav__menu .wikiviajes h4 {
+.section-nav__menu-2 .wikinoticias h4 {
     margin-bottom: 5px;
     margin-left: 50px;
     color: #36c;
+    font-size: 14px;
 }
 
-.section-nav__menu .wikiviajes p {
+.section-nav__menu-2 .wikinoticias p {
     margin-left: 50px;
     margin-top: 5px;
+    font-size: 13px;
+    color: #54595d;
+}
+
+.section-nav__menu-2 .wikidata {
+    background-image: url('https://img.icons8.com/officel/80/000000/data-backup.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 40px;
+    width: 192px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.section-nav__menu-2 .wikidata h4 {
+    margin-bottom: 5px;
+    margin-left: 50px;
+    color: #36c;
+    font-size: 14px;
+}
+
+.section-nav__menu-2 .wikidata p {
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #54595d;
+}
+
+/*----------------------------*/
+
+.section-nav__menu-3 {
+    display: flex;
+}
+
+.section-nav__menu-3 .wikiversidad {
+    background-image: url('https://img.icons8.com/office/40/000000/university.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: initial;
+    width: 188px;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.section-nav__menu-3 .wikiversidad h4 {
+    margin-bottom: 5px;
+    margin-left: 50px;
+    color: #36c;
+    font-size: 14px;
+}
+
+.section-nav__menu-3 .wikiversidad p {
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #54595d;
+}
+
+.section-nav__menu-3 .wikiquote {
+    background-image: url('https://img.icons8.com/doodle/48/000000/quote.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: initial;
+    width: 191px;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.section-nav__menu-3 .wikiquote h4 {
+    margin-bottom: 5px;
+    margin-left: 50px;
+    color: #36c;
+    font-size: 14px;
+}
+
+.section-nav__menu-3 .wikiquote p {
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #54595d;
+}
+
+.section-nav__menu-3 .mediawiki {
+    background-image: url('https://img.icons8.com/doodle/48/000000/media.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 40px;
+    width: 209px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.section-nav__menu-3 .mediawiki h4 {
+    margin-bottom: 5px;
+    margin-left: 50px;
+    color: #36c;
+    font-size: 14px;
+}
+
+.section-nav__menu-3 .mediawiki p {
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #54595d;
+}
+
+/*--------------------------------*/
+
+.section-nav__menu-4 {
+    display: flex;
+}
+
+.section-nav__menu-4 .wikisource {
+    background-image: url('https://img.icons8.com/bubbles/50/000000/iceberg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: initial;
+    width: 185px;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.section-nav__menu-4 .wikisource h4 {
+    margin-bottom: 5px;
+    margin-left: 50px;
+    color: #36c;
+    font-size: 14px;
+}
+
+.section-nav__menu-4 .wikisource p {
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #54595d;
+}
+
+.section-nav__menu-4 .wikispecies {
+    background-image: url('https://img.icons8.com/office/40/000000/corgi.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: initial;
+    width: 193px;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.section-nav__menu-4 .wikispecies h4 {
+    margin-bottom: 5px;
+    margin-left: 50px;
+    color: #36c;
+    font-size: 14px;
+}
+
+.section-nav__menu-4 .wikispecies p {
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #54595d;
+}
+
+.section-nav__menu-4 .meta-wiki {
+    background-image: url('https://img.icons8.com/color/48/000000/earth-planet.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: initial;
+    width: 278px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.section-nav__menu-4 .meta-wiki h4 {
+    margin-bottom: 5px;
+    margin-left: 50px;
+    color: #36c;
+    font-size: 14px;
+}
+
+.section-nav__menu-4 .meta-wiki p {
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #54595d;
 }
