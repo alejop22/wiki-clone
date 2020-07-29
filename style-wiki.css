@@ -238,6 +238,7 @@ main {
 }
 
 .section-nav__menu {
+    display: flex;
     width: 70%;
 }
 
@@ -248,6 +249,7 @@ main {
     background-size: initial;
     width: 158px;
     cursor: pointer;
+    margin-right: 50px;
 }
 
 .section-nav__menu .Commons h4 {
@@ -257,6 +259,26 @@ main {
 }
 
 .section-nav__menu .Commons p {
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.section-nav__menu .wikiviajes {
+    background-image: url('https://img.icons8.com/bubbles/50/000000/national-park.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: initial;
+    width: 193px;
+    cursor: pointer;
+}
+
+.section-nav__menu .wikiviajes h4 {
+    margin-bottom: 5px;
+    margin-left: 50px;
+    color: #36c;
+}
+
+.section-nav__menu .wikiviajes p {
     margin-left: 50px;
     margin-top: 5px;
 }
