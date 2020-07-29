@@ -222,3 +222,41 @@ main {
 .idioma button:hover {
     background-color: white;
 }
+
+.section-nav {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.section-main {
+    display: flex;
+    border-top: 1px solid #a2a9b1;
+}
+
+.section-spam {
+    width: 30%;
+}
+
+.section-nav__menu {
+    width: 70%;
+}
+
+.section-nav__menu .Commons {
+    background-image: url('https://img.icons8.com/ultraviolet/40/000000/creative-commons.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: initial;
+    width: 158px;
+    cursor: pointer;
+}
+
+.section-nav__menu .Commons h4 {
+    margin-bottom: 5px;
+    margin-left: 50px;
+    color: #36c;
+}
+
+.section-nav__menu .Commons p {
+    margin-left: 50px;
+    margin-top: 5px;
+}
