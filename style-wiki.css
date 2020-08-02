@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    background-color: #f8f9fa;
 }
 
 main {
@@ -235,6 +236,8 @@ main {
 
 .section-spam {
     width: 30%;
+    margin-left: 70px;
+    margin-top: 40px;
 }
 
 .section-nav__menu {
@@ -259,4 +262,47 @@ main {
 .section-nav__menu .Commons p {
     margin-left: 50px;
     margin-top: 5px;
+}
+
+.section-spam__publi {
+    background-image: url('https://img.icons8.com/clouds/100/000000/book-shelf.png');
+    background-repeat: no-repeat;
+    background-size: 60px;
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.section-spam__publi p {
+    margin-left: 70px;
+    color: #54595d;
+    font-size: 14px;
+}
+
+.section-spam__descargas {
+    background-image: url('https://img.icons8.com/ios/100/000000/wikipedia.png');
+    background-repeat: no-repeat;
+    background-size: 50px; 
+    width: 350px;
+}
+
+.section-spam__descargas h4 {
+    margin-left: 60px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.section-spam__descargas p {
+    margin-left: 60px;
+    margin-top: 15px;
+    color: #54595d;
+    font-size: 14px;
+}
+
+.section-spam__descargas--img {
+    margin-left: 60px;
+}
+
+.section-spam__descargas--img img {
+    margin-right: 50px;
+    cursor: pointer;
 }
