@@ -232,6 +232,9 @@ main {
 .section-spam {
     width: 30%;
 }
+.section-nav {
+    margin-top: 40px;
+}
 
 .section-nav__menu-1 {
     display: flex;
