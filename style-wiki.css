@@ -603,3 +603,29 @@ main {
     margin-right: 50px;
     cursor: pointer;
 }
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer li {
+    margin-right: 25px;
+    font-size: 14px;
+    color: #54595d;
+}
+
+footer a {
+    color: #36c; 
+}
+
+footer p {
+    color: #54595d;
+    font-size: 14px;
+}
