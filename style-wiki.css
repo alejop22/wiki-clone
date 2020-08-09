@@ -622,7 +622,12 @@ footer li {
 }
 
 footer a {
-    color: #36c; 
+    color: #36c;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 footer p {
